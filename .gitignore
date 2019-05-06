@@ -13,3 +13,9 @@
 
 # Ignore SimpleTest multi-site environment.
 /docroot/sites/simpletest
+
+# Dev
+/docroot/sites/*/libraries/local
+/docroot/sites/*/modules/local
+/docroot/sites/*/themes/local
+
