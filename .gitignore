@@ -2,14 +2,14 @@
 .DS_Store
 
 # Ignore PhpStorm project files.
-.idea
+/docroot/.idea
 
 # Ignore configuration files that may contain sensitive information.
-sites/*/settings.local.php
+/docroot/sites/*/settings.local.php
 
 # Ignore paths that contain user-generated content.
-sites/*/files
-sites/*/private
+/docroot/sites/*/files
+/docroot/sites/*/private
 
 # Ignore SimpleTest multi-site environment.
-sites/simpletest
+/docroot/sites/simpletest
